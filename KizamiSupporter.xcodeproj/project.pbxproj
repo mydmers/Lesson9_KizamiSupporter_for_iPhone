@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67F44C58ADEE3F9B38313950 /* Pods_KizamiSupporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE722C5369CA2B33288F5785 /* Pods_KizamiSupporter.framework */; };
+		95001EAB2062AD6300CC2EA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95001EAA2062AD6300CC2EA3 /* GoogleService-Info.plist */; };
+		95001EAE2062B14700CC2EA3 /* AdobeCreativeSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95001EAC2062B14700CC2EA3 /* AdobeCreativeSDKCore.framework */; };
+		95001EAF2062B14700CC2EA3 /* AdobeCreativeSDKImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95001EAD2062B14700CC2EA3 /* AdobeCreativeSDKImage.framework */; };
+		95001EB12062B17400CC2EA3 /* AdobeCreativeSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 95001EAC2062B14700CC2EA3 /* AdobeCreativeSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		95001EB32062B17400CC2EA3 /* AdobeCreativeSDKImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 95001EAD2062B14700CC2EA3 /* AdobeCreativeSDKImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		95001EB62062BD7300CC2EA3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 95001EB52062BD7300CC2EA3 /* libc++.tbd */; };
+		95001EB82062BD8200CC2EA3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 95001EB72062BD8200CC2EA3 /* libz.tbd */; };
+		95001EBA2062BD9200CC2EA3 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 95001EB92062BD9200CC2EA3 /* libz.1.2.5.tbd */; };
+		95001EBC2062BDA800CC2EA3 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 95001EBB2062BDA800CC2EA3 /* libsqlite3.0.tbd */; };
+		95001EBE2062BDB700CC2EA3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95001EBD2062BDB700CC2EA3 /* MobileCoreServices.framework */; };
+		95001EC02062BDC500CC2EA3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95001EBF2062BDC500CC2EA3 /* SystemConfiguration.framework */; };
+		95001EC22062BDD100CC2EA3 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95001EC12062BDD100CC2EA3 /* Accelerate.framework */; };
+		95001EC42062BDE000CC2EA3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95001EC32062BDE000CC2EA3 /* CoreData.framework */; };
+		95001EC62062BDEC00CC2EA3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95001EC52062BDEC00CC2EA3 /* MessageUI.framework */; };
+		95001EC82062BDF700CC2EA3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95001EC72062BDF700CC2EA3 /* OpenGLES.framework */; };
+		95001ECA2062BE0400CC2EA3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95001EC92062BE0400CC2EA3 /* QuartzCore.framework */; };
+		957B010620622967000AB276 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957B010520622967000AB276 /* LoginViewController.swift */; };
+		957B0108206229D0000AB276 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957B0107206229D0000AB276 /* HomeViewController.swift */; };
+		957B010A20622A1D000AB276 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957B010920622A1D000AB276 /* PostViewController.swift */; };
+		957B010C20622A3F000AB276 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957B010B20622A3F000AB276 /* SettingViewController.swift */; };
+		957B010E20622A61000AB276 /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957B010D20622A61000AB276 /* ImageSelectViewController.swift */; };
 		958BE1752061EEAA0033BD87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958BE1742061EEAA0033BD87 /* AppDelegate.swift */; };
 		958BE1772061EEAA0033BD87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958BE1762061EEAA0033BD87 /* ViewController.swift */; };
 		958BE17A2061EEAA0033BD87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958BE1782061EEAA0033BD87 /* Main.storyboard */; };
@@ -14,7 +36,43 @@
 		958BE17F2061EEAA0033BD87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958BE17D2061EEAA0033BD87 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		95001EB42062B17400CC2EA3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				95001EB32062B17400CC2EA3 /* AdobeCreativeSDKImage.framework in Embed Frameworks */,
+				95001EB12062B17400CC2EA3 /* AdobeCreativeSDKCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5F491D235CE90AA4E58BD20D /* Pods-KizamiSupporter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KizamiSupporter.release.xcconfig"; path = "Pods/Target Support Files/Pods-KizamiSupporter/Pods-KizamiSupporter.release.xcconfig"; sourceTree = "<group>"; };
+		95001EAA2062AD6300CC2EA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		95001EAC2062B14700CC2EA3 /* AdobeCreativeSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKCore.framework; sourceTree = "<group>"; };
+		95001EAD2062B14700CC2EA3 /* AdobeCreativeSDKImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKImage.framework; sourceTree = "<group>"; };
+		95001EB52062BD7300CC2EA3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		95001EB72062BD8200CC2EA3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		95001EB92062BD9200CC2EA3 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		95001EBB2062BDA800CC2EA3 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		95001EBD2062BDB700CC2EA3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		95001EBF2062BDC500CC2EA3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		95001EC12062BDD100CC2EA3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		95001EC32062BDE000CC2EA3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		95001EC52062BDEC00CC2EA3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		95001EC72062BDF700CC2EA3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		95001EC92062BE0400CC2EA3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		95001ECD2062C0A400CC2EA3 /* KizamiSupporter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KizamiSupporter-Bridging-Header.h"; sourceTree = "<group>"; };
+		957B010520622967000AB276 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		957B0107206229D0000AB276 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		957B010920622A1D000AB276 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		957B010B20622A3F000AB276 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		957B010D20622A61000AB276 /* ImageSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
 		958BE1712061EEAA0033BD87 /* KizamiSupporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KizamiSupporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		958BE1742061EEAA0033BD87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		958BE1762061EEAA0033BD87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +80,8 @@
 		958BE17B2061EEAA0033BD87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		958BE17E2061EEAA0033BD87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		958BE1802061EEAA0033BD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5053D9E71B6DDABF448270D /* Pods-KizamiSupporter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KizamiSupporter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KizamiSupporter/Pods-KizamiSupporter.debug.xcconfig"; sourceTree = "<group>"; };
+		BE722C5369CA2B33288F5785 /* Pods_KizamiSupporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KizamiSupporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +89,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95001ECA2062BE0400CC2EA3 /* QuartzCore.framework in Frameworks */,
+				95001EC82062BDF700CC2EA3 /* OpenGLES.framework in Frameworks */,
+				95001EC62062BDEC00CC2EA3 /* MessageUI.framework in Frameworks */,
+				95001EC42062BDE000CC2EA3 /* CoreData.framework in Frameworks */,
+				95001EC22062BDD100CC2EA3 /* Accelerate.framework in Frameworks */,
+				95001EC02062BDC500CC2EA3 /* SystemConfiguration.framework in Frameworks */,
+				95001EBE2062BDB700CC2EA3 /* MobileCoreServices.framework in Frameworks */,
+				95001EBC2062BDA800CC2EA3 /* libsqlite3.0.tbd in Frameworks */,
+				95001EBA2062BD9200CC2EA3 /* libz.1.2.5.tbd in Frameworks */,
+				95001EB82062BD8200CC2EA3 /* libz.tbd in Frameworks */,
+				95001EB62062BD7300CC2EA3 /* libc++.tbd in Frameworks */,
+				67F44C58ADEE3F9B38313950 /* Pods_KizamiSupporter.framework in Frameworks */,
+				95001EAF2062B14700CC2EA3 /* AdobeCreativeSDKImage.framework in Frameworks */,
+				95001EAE2062B14700CC2EA3 /* AdobeCreativeSDKCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +114,8 @@
 			children = (
 				958BE1732061EEAA0033BD87 /* KizamiSupporter */,
 				958BE1722061EEAA0033BD87 /* Products */,
+				EDBD3C21A940F08358887AB7 /* Pods */,
+				9B05542C7D2BE2AC63A00046 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +130,15 @@
 		958BE1732061EEAA0033BD87 /* KizamiSupporter */ = {
 			isa = PBXGroup;
 			children = (
+				95001ECD2062C0A400CC2EA3 /* KizamiSupporter-Bridging-Header.h */,
+				95001EAC2062B14700CC2EA3 /* AdobeCreativeSDKCore.framework */,
+				95001EAD2062B14700CC2EA3 /* AdobeCreativeSDKImage.framework */,
+				95001EAA2062AD6300CC2EA3 /* GoogleService-Info.plist */,
+				957B010520622967000AB276 /* LoginViewController.swift */,
+				957B0107206229D0000AB276 /* HomeViewController.swift */,
+				957B010920622A1D000AB276 /* PostViewController.swift */,
+				957B010B20622A3F000AB276 /* SettingViewController.swift */,
+				957B010D20622A61000AB276 /* ImageSelectViewController.swift */,
 				958BE1742061EEAA0033BD87 /* AppDelegate.swift */,
 				958BE1762061EEAA0033BD87 /* ViewController.swift */,
 				958BE1782061EEAA0033BD87 /* Main.storyboard */,
@@ -64,6 +149,34 @@
 			path = KizamiSupporter;
 			sourceTree = "<group>";
 		};
+		9B05542C7D2BE2AC63A00046 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95001EC92062BE0400CC2EA3 /* QuartzCore.framework */,
+				95001EC72062BDF700CC2EA3 /* OpenGLES.framework */,
+				95001EC52062BDEC00CC2EA3 /* MessageUI.framework */,
+				95001EC32062BDE000CC2EA3 /* CoreData.framework */,
+				95001EC12062BDD100CC2EA3 /* Accelerate.framework */,
+				95001EBF2062BDC500CC2EA3 /* SystemConfiguration.framework */,
+				95001EBD2062BDB700CC2EA3 /* MobileCoreServices.framework */,
+				95001EBB2062BDA800CC2EA3 /* libsqlite3.0.tbd */,
+				95001EB92062BD9200CC2EA3 /* libz.1.2.5.tbd */,
+				95001EB72062BD8200CC2EA3 /* libz.tbd */,
+				95001EB52062BD7300CC2EA3 /* libc++.tbd */,
+				BE722C5369CA2B33288F5785 /* Pods_KizamiSupporter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDBD3C21A940F08358887AB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5053D9E71B6DDABF448270D /* Pods-KizamiSupporter.debug.xcconfig */,
+				5F491D235CE90AA4E58BD20D /* Pods-KizamiSupporter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +184,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 958BE1832061EEAA0033BD87 /* Build configuration list for PBXNativeTarget "KizamiSupporter" */;
 			buildPhases = (
+				B21B2B410C03D56D8412A35A /* [CP] Check Pods Manifest.lock */,
 				958BE16D2061EEAA0033BD87 /* Sources */,
 				958BE16E2061EEAA0033BD87 /* Frameworks */,
 				958BE16F2061EEAA0033BD87 /* Resources */,
+				3D5235CF7C09B038122AF1C2 /* [CP] Embed Pods Frameworks */,
+				2C243EF65BF53D61500B0260 /* [CP] Copy Pods Resources */,
+				95001EB42062B17400CC2EA3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				958BE17F2061EEAA0033BD87 /* LaunchScreen.storyboard in Resources */,
+				95001EAB2062AD6300CC2EA3 /* GoogleService-Info.plist in Resources */,
 				958BE17C2061EEAA0033BD87 /* Assets.xcassets in Resources */,
 				958BE17A2061EEAA0033BD87 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +249,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C243EF65BF53D61500B0260 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KizamiSupporter/Pods-KizamiSupporter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D5235CF7C09B038122AF1C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AdobeCreativeSDKCore.framework/strip-frameworks.sh\"";
+			showEnvVarsInLog = 0;
+		};
+		B21B2B410C03D56D8412A35A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		958BE16D2061EEAA0033BD87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				957B010E20622A61000AB276 /* ImageSelectViewController.swift in Sources */,
 				958BE1772061EEAA0033BD87 /* ViewController.swift in Sources */,
 				958BE1752061EEAA0033BD87 /* AppDelegate.swift in Sources */,
+				957B010620622967000AB276 /* LoginViewController.swift in Sources */,
+				957B0108206229D0000AB276 /* HomeViewController.swift in Sources */,
+				957B010A20622A1D000AB276 /* PostViewController.swift in Sources */,
+				957B010C20622A3F000AB276 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +380,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "KizamiSupporter/KizamiSupporter-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -252,6 +424,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "KizamiSupporter/KizamiSupporter-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -260,8 +433,13 @@
 		};
 		958BE1842061EEAA0033BD87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5053D9E71B6DDABF448270D /* Pods-KizamiSupporter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KizamiSupporter",
+				);
 				INFOPLIST_FILE = KizamiSupporter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.mydmers.KizamiSupporter;
@@ -272,8 +450,13 @@
 		};
 		958BE1852061EEAA0033BD87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F491D235CE90AA4E58BD20D /* Pods-KizamiSupporter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KizamiSupporter",
+				);
 				INFOPLIST_FILE = KizamiSupporter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.mydmers.KizamiSupporter;
@@ -301,6 +484,7 @@
 				958BE1852061EEAA0033BD87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
